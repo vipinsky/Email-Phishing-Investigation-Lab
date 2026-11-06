@@ -6,8 +6,7 @@
 
 This project documents the analysis of **four suspicious email samples** from a SOC Level 1 analyst's perspective. The goal was to practise a structured email investigation: inspect message headers, validate sender authentication, identify social-engineering techniques, examine suspicious links and attachments safely, record indicators of compromise (IOCs), and recommend appropriate response actions.
 
-> **Project report:** Add `Email_Phishing_Investigation_Report_Vipin_Kumar.pdf` to this repository (for example, in a `reports/` folder) and link it here once uploaded.
-
+> **Project report:** Add `Email_Phishing_Investigation_Report.pdf` to this repository 
 ---
 
 ## Why I did this project
@@ -103,10 +102,11 @@ The samples are used for educational analysis and attribution to their original 
 A simple layout for publishing the project:
 
 ```text
-email-phishing-investigation/
+email-phishing-investigation-Lab/
+├── Screenshots
+├── email samples
+├── Email_Phishing_Investigation_Report_Vipin_Kumar.pdf
 ├── README.md
-└── reports/
-    └── Email_Phishing_Investigation_Report_Vipin_Kumar.pdf
 ```
 
 Only publish sample files or other artifacts when redistribution is permitted. Avoid uploading sensitive recipient information, credentials, or live clickable malicious URLs.
